@@ -1,0 +1,19 @@
+{
+  "name": "evermount-construction-ai-task-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram task scheduler bot for Evermount Construction (main-contractor / subcontractor reminders).",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@vercel/node": "^3.2.0",
+    "typescript": "^5.5.0"
+  }
+}
